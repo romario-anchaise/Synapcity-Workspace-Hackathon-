@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="worker" android:enabled="true" android:icon="@drawable/ic_launcher" android:shortcutShortLabel="@string/worker_shortcut">
+        <intent android:action="android.intent.action.VIEW" android:targetPackage="pe.rapicostura.app" android:targetClass="pe.rapicostura.app.MainActivity" android:data="https://rapicostura-romario.web.app/" />
+    </shortcut>
+    <shortcut android:shortcutId="owner" android:enabled="true" android:icon="@drawable/ic_launcher" android:shortcutShortLabel="@string/owner_shortcut">
+        <intent android:action="android.intent.action.VIEW" android:targetPackage="pe.rapicostura.app" android:targetClass="pe.rapicostura.app.MainActivity" android:data="https://rapicostura-romario.web.app/?vista=duena" />
+    </shortcut>
+</shortcuts>

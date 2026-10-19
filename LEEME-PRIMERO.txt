@@ -1,0 +1,49 @@
+RAPICOSTURA — VERSIÓN MÁS RECIENTE · 19/10/2026
+
+CONTENIDO
+- app/: código de la app web, videos de tutoriales, scripts, pruebas y configuración Firebase.
+- Rapicostura.apk: instalador Android que abre la web pública y recibe sus cambios web.
+- app/integrations/chatbot-server/: chatbot del compañero con integración local por QR.
+- presentacion-parche/: corrección de avance/retroceso del presentador, original de respaldo e instrucciones. NO incluye los assets del Netlify del compañero; conservar su carpeta assets/ al republicar.
+
+WEB PUBLICADA
+https://rapicostura-romario.web.app/
+
+ARRANCAR EL BOT POR QR EN OTRA COMPUTADORA
+Instalar Node.js 24 LTS (mínimo 22.13). Extraer el ZIP completo.
+En una terminal dentro de app/integrations/chatbot-server:
+  npm ci
+Luego dentro de app:
+  node scripts/start-local-qr.cjs
+Abrir:
+http://127.0.0.1:8091/app/?vista=duena&seccion=chatbot
+La dueña escanea el QR desde WhatsApp > Dispositivos vinculados.
+Autorizar los números que probarán el bot desde su panel. El proceso debe permanecer encendido.
+La sesión de WhatsApp se genera en app/.local-data/ y no debe compartirse.
+
+ESTADO REAL: LEER ANTES DE ENTREGAR
+Esta es la última versión disponible; no es una integración de producción completamente activada.
+El bot por QR funciona como servidor LOCAL. No está publicado para que la APK u otros celulares se conecten a él. El acceso Abrir bot de esta computadora en Firebase solo funciona en la computadora que ejecuta el servidor. Pendientes: alojamiento persistente con HTTPS, vinculación del WhatsApp y prueba de conversación real. Gemini no trae clave configurada.
+Los datos operativos de la app se guardan localmente en cada dispositivo; no hay sincronización compartida ni autenticación real de producción para las vistas Dueña/Trabajadora.
+El chat público /postula queda pendiente del ZIP del compañero que pide teléfono a postulantes.
+La corrección de la presentación está probada localmente, pero el compañero aún debe publicarla en su Netlify.
+
+ACTUALIZAR LA WEB
+Dentro de app:
+  node scripts/build-shipping.cjs
+  node scripts/build-chatbot-panel.cjs
+  node scripts/build-web.cjs
+Publicar con una cuenta autorizada:
+  firebase deploy --only hosting --project rapicostura-romario
+
+PRUEBAS
+Dentro de app:
+  node --test tests/*.cjs
+Dentro de app/integrations/chatbot-server:
+  npm test
+Dentro de presentacion-parche:
+  node --test presenter-navigation.test.cjs
+
+ARCHIVOS PRIVADOS EXCLUIDOS
+No se incluyen sesiones de WhatsApp, bases con registros locales, claves API, cachés, node_modules ni la clave privada de firma de Android. El APK existente está incluido y firmado; para futuras actualizaciones nativas se necesita la clave original guardada de forma privada por su propietario.
+Para detalles consultar app/README.md, app/android/README.md y app/docs/.

@@ -1,0 +1,22 @@
+CORRECCIÓN DEL PRESENTADOR — RAPICOSTURA
+
+Para el compañero que publicó aquamarine-pika-1dbd4a.netlify.app:
+
+1. Haz una copia del proyecto original y conserva su index.html anterior.
+2. Reemplaza únicamente index.html por el index.html de este paquete.
+3. Conserva assets/ y cualquier otro archivo del proyecto original.
+4. Vuelve a publicar LA CARPETA COMPLETA del proyecto en el MISMO sitio Netlify.
+
+IMPORTANTE: este paquete no contiene los videos ni las imágenes. NO lo publiques solo como si fuera el sitio completo: faltaría assets/. Los recursos existentes no se descargaron ni se modificaron.
+
+Cambio puntual: el manejador de teclado antes ignoraba VIDEO y BUTTON. Ahora captura PageDown/PageUp y flechas incluso con esos elementos enfocados, sin esperar el fin del video. Home/End van al inicio/final; se evitan repeticiones por mantener una tecla pulsada. Se conserva la escritura en campos, los atajos del navegador y la activación normal con espacio en botones/enlaces. El diseño, contenido, reproducción en bucle y archivos de video permanecen intactos.
+
+Comprobaciones realizadas:
+- El original no avanzó al pulsar PageDown con Siguiente enfocado (04/10).
+- La corrección avanzó de 04/10 a 05/10 con ambos videos reproduciéndose y ended=false.
+- PageUp con video enfocado volvió a 04/10; ArrowRight volvió a 05/10.
+- Los videos de diapositivas inactivas se pausaron; los de la activa siguieron reproduciéndose.
+- Home/End conservaron los límites 01/10 y 10/10.
+- Siete pruebas automáticas aprobadas. Se probaron las teclas que emite un presentador, no un control físico conectado.
+
+Esta corrección NO está publicada en el enlace de Netlify: la cuenta pertenece al compañero.

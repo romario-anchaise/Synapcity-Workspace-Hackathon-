@@ -1,0 +1,52 @@
+{
+  "nombre": "Rapicostura",
+  "contacto": "Nelly Chávez al 957 536 688",
+  "empresa": "Rapicostura es una empresa de arreglos y confección de ropa en Arequipa, conformada por mujeres. Buscamos crecer juntas en nuestras habilidades de costura, en un ambiente y clima laboral cálido.\n\nConvocatoria abierta para tres puestos: Costurera / especialista, Atención al público y Administrador(a).\n\nSedes (4): José Luis Bustamante y Rivero (locales Siglo XX y Dolores), Cerro Colorado, Yanahuara y Cayma. La persona se ubica en la sede que mejor se acomode a su situación.\n\nHorarios flexibles: jornada completa o por horas. Turnos de mañana o tarde.\n\nRequisitos para costurera: experiencia en arreglos de ropa; manejo de máquina recta industrial, remalladora y recubridora; colocado de cierres (pantalón, falda y casacas), aplicación de elástico a un buzo, cuellos básicos, puños y pretinas, armado de bolsillos. Buenos acabados, atención al detalle y cumplimiento de tiempos. Se realiza una prueba práctica.\n\nAtención al público: vocación de servicio y buen trato, conocimientos básicos de costura, comunicación clara, orden, responsabilidad y disposición para aprender y trabajar en equipo.\n\nAdministración: experiencia en administración o coordinación de equipos, formación técnica o universitaria afín, Excel/Google Sheets, caja, ventas, inventarios y reportes.\n\nBeneficios: capacitación, ingreso a planilla de acuerdo con las condiciones del puesto, oportunidades de crecimiento y un trabajo digno que valora el oficio.\n\nVisitas para conocernos: de lunes a sábado, de 9 de la mañana a 7 de la tarde. La visita dura aproximadamente una hora. El equipo confirma cada cita.\n\nFormulario de postulación: bit.ly/rapicosturapostulacion",
+  "faq": [
+    {
+      "pregunta": "¿Dónde están sus sedes o locales?",
+      "claves": "sede local direccion ubicacion queda donde distrito",
+      "respuesta": "Tenemos sedes en José Luis Bustamante y Rivero (Siglo XX y Dolores), Cerro Colorado, Yanahuara y Cayma 📍 Puedes elegir la que te quede más cerca 💜"
+    },
+    {
+      "pregunta": "¿Cuál es el horario de trabajo?",
+      "claves": "horario turno jornada horas mañana tarde tiempo flexible",
+      "respuesta": "Tenemos horarios flexibles: jornada completa o por horas, en turno de mañana o de tarde 😊 Lo conversamos en tu visita para que se acomode a ti 💜"
+    },
+    {
+      "pregunta": "¿Cuánto pagan? ¿Cuál es el sueldo?",
+      "claves": "sueldo pago pagan salario remuneracion gana ganar dinero planilla",
+      "respuesta": "El pago depende del puesto, la sede y el horario que elijas 💜 Lo conversamos con detalle en la visita. Además, el ingreso a planilla es de acuerdo con las condiciones del puesto."
+    },
+    {
+      "pregunta": "¿Qué requisitos piden para costurera?",
+      "claves": "requisito necesito saber piden experiencia maquina habilidades",
+      "respuesta": "Buscamos experiencia en arreglos de ropa y manejo de máquina recta industrial, remalladora y recubridora 🧵 También colocar cierres, elásticos, cuellos, puños y pretinas, y armar bolsillos."
+    },
+    {
+      "pregunta": "¿Qué puestos tienen disponibles?",
+      "claves": "puesto vacante trabajo cargo convocatoria atencion publico administrador",
+      "respuesta": "Tenemos convocatoria abierta para Costurera / especialista, Atención al público y Administrador(a) 💜"
+    },
+    {
+      "pregunta": "¿Hay prueba práctica?",
+      "claves": "prueba practica examen evaluacion",
+      "respuesta": "Sí 😊 Para costureras se realiza una prueba práctica sencilla, para conocer cómo trabajas 🧵"
+    },
+    {
+      "pregunta": "¿Qué beneficios ofrecen?",
+      "claves": "beneficio ofrecen capacitacion crecimiento planilla seguro",
+      "respuesta": "Ofrecemos capacitación, ingreso a planilla según las condiciones del puesto y oportunidades de crecer asumiendo más responsabilidades 💜"
+    },
+    {
+      "pregunta": "¿Cuánto dura la visita o entrevista?",
+      "claves": "visita entrevista dura cita reunion",
+      "respuesta": "La visita dura aproximadamente una hora 😊 Recibimos visitas de lunes a sábado, de 9 de la mañana a 7 de la tarde."
+    },
+    {
+      "pregunta": "¿Con quién puedo hablar? ¿Hay un número de contacto?",
+      "claves": "contacto numero telefono hablar persona llamar nelly",
+      "respuesta": "Puedes escribirle a Nelly Chávez al 957 536 688 por WhatsApp 💜"
+    }
+  ]
+}

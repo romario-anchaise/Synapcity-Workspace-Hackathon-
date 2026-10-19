@@ -1,0 +1,7 @@
+.firebase/
+firebase-debug*.log
+node_modules/
+android/build/
+android/signing/
+
+.local-data/
